@@ -1,6 +1,6 @@
 #include "Common.h"
 
-/ handles drawing stuff (and since I'm lazy and thi sisn't well designed: input and other stuff too!)
+// handles drawing stuff (and since I'm lazy and thi sisn't well designed: input and other stuff too!)
 class SDLMgr
 {
 public:

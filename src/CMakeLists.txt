@@ -1,12 +1,10 @@
 set(SOURCE_FILES
 	main.cpp
-	SDLInput.cpp
 	SDLMgr.cpp
 	)
 
 set(HEADER_FILES
 	Common.h
-	SDLInput.h
 	SDLMgr.h
 	)
 
