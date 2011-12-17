@@ -19,6 +19,8 @@ set(SDL_LIB_DIR "/usr/lib" CACHE FILEPATH "Where to look for SDL libs.")
 set(INSTALL_RUNTIMES_TO "/usr/bin" CACHE STRING "Where install executables.")
 set(INSTALL_LIBS_TO "/usr/lib" CACHE STRING "Where to install libs.")
 
+set(SDL_LIB "${SDL_LIB_DIR}/${LIB_PREFIX}SDL${LIB_POSTFIX}")
+
 # includes
 include_directories("src")
 include_directories(${SDL_INCLUDE_DIR})
